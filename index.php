@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="build/css/style.css" type="text/css">
 </head>
 <body>
-<?php
+    <?php
         include("partials/header.php")
     ?>
 </body>
