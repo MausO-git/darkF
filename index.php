@@ -20,7 +20,7 @@
                 
                 while($don = $req->fetch(PDO::FETCH_ASSOC)){
                     //var_dump($don);
-                    echo "<a href='art.php?".$don['id']."' class='art'>";
+                    echo "<a href='art.php?id=".$don['id']."' class='art'>";
                         echo "<h1>".$don['nom']."</h1>";
                         echo "<img src='images/".$don['media']."' alt='images'";
                     echo "</a>";
