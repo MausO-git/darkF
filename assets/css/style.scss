@@ -74,9 +74,19 @@ h1{
             font-size: 28px;
             color: $titleColor;
         }
-        img{
-            width: 20%;
-            background-color: transparent;
+        .ill{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            img{
+                width: 20%;
+                background-color: transparent;
+            }
+            h3{
+                font-size: 24px;
+                color: #b58a1c;
+            }
         }
     }
 }
